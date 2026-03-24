@@ -4,6 +4,27 @@ p{color:red;}
 img{
 max-width: 960px;
 height: auto;  
-padding-left:auto;
-padding-right:auto;
+padding-left: auto;
+padding-right: auto;
+}
+
+.Roc {
+  display: flex;
+  background-color: Blue;
+  flex-direction:row;
+  
+}
+
+ .die {
+  #background-color: #00ff00;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+
+}
+@media (max-width: 600px) {
+  .Roc {
+    flex-direction: column;
+  }
 }

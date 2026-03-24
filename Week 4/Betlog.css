@@ -1,0 +1,14 @@
+ .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+body{
+background-color: yellow;}
+#error{
+color:red;}
+#Del{
+color: #000000;
+background-color:#ff0000;
+}
+#newTask{
+color:#FF00FF}
